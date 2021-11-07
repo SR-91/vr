@@ -1,3 +1,6 @@
+body {
+    font-family: 'Petrona';
+}
 .nav-link {
     color: #000 !important;
 }
@@ -23,6 +26,13 @@ text-align: center;
     display: flex;
     justify-content: space-between;
     margin: 0 20px 40px 20px;
+}
+.contentLight {
+    background: #e7edfc;
+}
+.mis-vis .strong{
+    color: #333399;
+    font-weight: bold;
 }
  /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {}
@@ -52,7 +62,7 @@ text-align: center;
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-    .our-impact .main-title {
+    .our-impact .main-title,.main-title {
         text-align: center;
         font-size: 46px;
         font-weight: 800;
@@ -325,6 +335,10 @@ right: -11px;
         padding: 7px 15px;
         text-decoration: none;
         border-radius: 7.5px 0 0 0;
+    }
+    .contentLight {
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
     .footerWrap {
         background: #13047a;
